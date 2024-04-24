@@ -16,7 +16,7 @@ while check == True:
     if input_number == answer:
         print("Congratulations! You guessed the correct number.")
         check = False
-        time.sleep (3)
+        time.sleep (2)
         upgrade_random = randint(1, 5)
         upgrade = upgrade * upgrade_random
         max = max * upgrade
